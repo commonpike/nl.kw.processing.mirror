@@ -105,7 +105,6 @@ else
 	cp -v $LIBDIRNAME/library.properties $LIBDIRNAME/dist/$libname.txt
 fi	
 	
-echo All done.
 
 # summary.html
 
