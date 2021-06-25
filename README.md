@@ -29,6 +29,7 @@ under preferences. It's usually in your homedir somewhere.
 Or you can download it from GIT, and put it in that folder
 yourself: 
 <https://github.com/commonpike/nl.kw.processing.mirror>
+locally rename the repo folder to 'Mirror'.
 
 Once it's there, choose 'sketch > import library'
 from the menu bar.
