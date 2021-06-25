@@ -7,7 +7,7 @@ name = Mirror
 authors = [Pike]
 
 # A web page for your library, NOT a direct link to where to download it.
-url = https://commonpike.github.io/nl.kw.processing.Mirror/dist/summary.html
+url = https://commonpike.github.io/nl.kw.processing.mirror/dist/summary.html
 
 # The category (or categories) of your library, must be from the following list:
 #   "3D"            "Animation"     "Compilations"      "Data"          
