@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# Workflow to compile the dist needed for Processing libraries
 
 name: Compile, Jar, Doc, Dist
 
@@ -6,9 +6,9 @@ name: Compile, Jar, Doc, Dist
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -16,7 +16,7 @@ on:
 env:
     COREURL: https://repo1.maven.org/maven2/org/processing/core/3.3.7/core-3.3.7.jar
     COREJAR: tmp/core.jar
-    LIBNAME: ExampleFooLibrary
+    LIBNAME: Mirror
 
 # A workflow run is made up of one or more jobs that can 
 # run sequentially or in parallel
