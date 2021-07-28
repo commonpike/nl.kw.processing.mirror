@@ -19,6 +19,9 @@ on a separate PGraphics object (instead of the sketch canvas), so
 you can crop the result to not contain parts of the mirrored image
 that have no original image data.
 
+For the full reference, see 
+<https://commonpike.github.io/nl.kw.processing.mirror/reference/>
+
 To see what you can do with this, watch some of the animations at
 <https://www.instagram.com/studio.pike>
 
