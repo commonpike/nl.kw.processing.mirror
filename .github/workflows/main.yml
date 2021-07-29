@@ -6,7 +6,7 @@ name: Compile, Jar, Doc, Dist
 on:
   # Triggers the workflow on pull request events but only for the master branch
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     types: [opened, edited, reopened, synchronize]
 
 
