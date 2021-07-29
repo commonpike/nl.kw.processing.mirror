@@ -38,19 +38,25 @@ fi
 echo
 echo 'Compiling src/**.java to ./build/*.class ..'
 
+failure=0;
+
 find . -name "*.java" -print0 | xargs -0 \
  javac -source $JAVAVERSION -target $JAVAVERSION \
  -d build -classpath "$corejar"
+failure=$?
 
   
-if [ $? -eq 0 ]; then
+if [ $failure -eq 0 ]; then
   
-  echo "Jarring ./build/**.class to ./library/$libname.jar .."
-	jar -cf library/$libname.jar -C build .
+	echo "Jarring ./build/**.class to ./library/$libname.jar .."
+		jar -cf library/$libname.jar -C build .
+		failure=$?
 
-	echo All done.
-	echo
+		echo All done.
+		echo
 
 fi
 
 cd - &>/dev/null
+
+exit $failure;

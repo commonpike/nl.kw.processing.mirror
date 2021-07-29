@@ -1,6 +1,7 @@
 202106*pike
 
 # Processing3 Mirror
+<https://commonpike.github.io/nl.kw.processing.mirror/>
 
 A Processing utility to draw the mirror image (mirage) of a PGraphics
 object onto that object. A mirror can be constructed with an angle,
@@ -17,6 +18,13 @@ obviously change the image. Also, it often useful to draw the mirage
 on a separate PGraphics object (instead of the sketch canvas), so
 you can crop the result to not contain parts of the mirrored image
 that have no original image data.
+
+For the full reference, see 
+<https://commonpike.github.io/nl.kw.processing.mirror/reference/>
+
+To see what you can do with this, watch some of the animations at
+<https://www.instagram.com/studio.pike>
+
 
 ## Installation
 
